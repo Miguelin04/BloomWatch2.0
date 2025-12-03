@@ -20,17 +20,16 @@ ________________________________________
 1️⃣ Clonar el repositorio
 git clone https://github.com/Miguelin04/BloomWatch2.0h
 cd BloomWatch2.0h
-________________________________________
+
 2️⃣ Instalar dependencias
 npm install
-________________________________________
+
 3️⃣ Configurar variables de entorno (si aplica)
 
 Si el proyecto requiere claves (por ejemplo: GEMINI_API_KEY), crea un archivo .env.local en la raíz del proyecto:
 
 GEMINI_API_KEY=tu_valor_aqui
-# Agrega aquí otras variables necesarias
-________________________________________
+
 4️⃣ Ejecutar el servidor de desarrollo
 npm run dev
 
