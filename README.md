@@ -1,7 +1,7 @@
 🌿 BloomWatch – Ejecución Local del Prototipo
 
 Este documento explica cómo instalar y ejecutar el prototipo localmente utilizando Vite + React. El objetivo es proporcionar una experiencia rápida, clara y sin fricción para desarrolladores o testers.
-
+________________________________________
 🚀 Ejecución local del prototipo
 🔧 Prerrequisitos
 
