@@ -1,74 +1,81 @@
+🌿 BloomWatch – Ejecución Local del Prototipo
 
-# Bloomwatch
+Este documento explica cómo instalar y ejecutar el prototipo localmente utilizando Vite + React. El objetivo es proporcionar una experiencia rápida, clara y sin fricción para desarrolladores o testers.
 
-Instrucciones para ejecutar este proyecto localmente.
+🚀 Ejecución local del prototipo
+🔧 Prerrequisitos
 
-**Resumen rápido:** la app usa Vite + React. Los scripts disponibles están en `package.json`: `dev`, `build` y `preview`.
+Antes de iniciar, asegúrate de tener instalado:
 
-**Requisitos recomendados**
-- Node.js >= 18 (recomendado 18.x o 20.x)
-- npm (incluido con Node.js)
+Node.js 18+ (recomendado 18.x o 20.x)
 
-## Configuración y ejecución (PowerShell)
+npm (incluido con Node.js)
 
-1. Clona el repositorio (si aún no lo has hecho) y entra en la carpeta del proyecto:
+Verifica tus versiones con:
 
-```powershell
+node -v
+npm -v
+________________________________________
+▶️ Cómo ejecutar BloomWatch en tu PC
+1️⃣ Clonar el repositorio
 git clone https://github.com/Miguelin04/BloomWatch2.0h
-```
-2. Instala dependencias:
-
-```powershell
+cd BloomWatch2.0h
+________________________________________
+2️⃣ Instalar dependencias
 npm install
-```
-3. Variables de entorno
+________________________________________
+3️⃣ Configurar variables de entorno (si aplica)
 
-- Si la app requiere claves (por ejemplo `GEMINI_API_KEY`), crea un archivo `.env.local` en la raíz del proyecto y añade la variable. Ejemplo:
+Si el proyecto requiere claves (por ejemplo: GEMINI_API_KEY), crea un archivo .env.local en la raíz del proyecto:
 
-```text
 GEMINI_API_KEY=tu_valor_aqui
-# Otras variables que necesite la app
-```
-
-4. Ejecutar en modo desarrollo (Vite):
-
-```powershell
+# Agrega aquí otras variables necesarias
+________________________________________
+4️⃣ Ejecutar el servidor de desarrollo
 npm run dev
-```
 
-Abre el navegador en la dirección que muestre Vite (por defecto `http://localhost:5173`).
+Luego abre tu navegador en la URL que mostrará la terminal (generalmente):
 
-5. Compilar para producción:
-
-```powershell
+http://localhost:5173/
+________________________________________
+5️⃣ Compilar versión de producción
 npm run build
-```
 
-6. Previsualizar build de producción:
-
-```powershell
+6️⃣ Previsualizar la build generada
 npm run preview
-```
 
-## Scripts (desde `package.json`)
-- `dev`: inicia Vite en modo desarrollo.
-- `build`: genera la versión optimizada para producción.
-- `preview`: arranca un servidor para previsualizar la build.
+🛠️ Tecnologías utilizadas
 
-## Solución de problemas rápida
-- Si `npm install` falla: verifica la versión de Node.js con `node -v`.
-- Si el puerto de Vite está en uso: Vite propondrá otro puerto o puedes forzar uno con `npx vite --port 3000`.
-- Si faltan variables de entorno: revisa que `.env.local` esté en la raíz y no contenga errores.
+React
 
-## Notas
-- Revisa `package.json` para ver dependencias y scripts.
+Vite (entorno ultrarrápido para desarrollo)
 
-## Run Locally
+JavaScript / JSX
 
-**Prerequisites:**  Node.js
+TailwindCSS (estilos utilitarios)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Node.js + npm para la ejecución local
+
+📁 Scripts disponibles (package.json)
+
+dev → inicia Vite en modo desarrollo
+
+build → genera la build optimizada
+
+preview → previsualiza la build de producción
+________________________________________
+🧯 Solución rápida de problemas
+
+Error en npm install: confirma tu versión de Node.js (node -v).
+
+Puerto ocupado: ejecuta manualmente
+
+npx vite --port 3000
+
+Variables de entorno no cargan: revisa que .env.local esté en la raíz y sin caracteres extraños.
+________________________________________
+📌 Notas finales
+
+Este prototipo es principalmente una interfaz visual, por lo que algunas funciones pueden no incluir lógica completa.
+
+Revisa package.json si deseas conocer dependencias o scripts adicionales.
