@@ -1,0 +1,5 @@
+{
+  "name": "BloomWatch",
+  "description": "Plataforma de Observación de la Tierra para detección y predicción de eventos de floración vegetal mediante datos satelitales e IA.",
+  "requestFramePermissions": []
+}
