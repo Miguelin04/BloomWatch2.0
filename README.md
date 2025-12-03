@@ -36,13 +36,13 @@ npm run dev
 Luego abre tu navegador en la URL que mostrará la terminal (generalmente):
 
 http://localhost:5173/
-________________________________________
+
 5️⃣ Compilar versión de producción
 npm run build
 
 6️⃣ Previsualizar la build generada
 npm run preview
-
+________________________________________
 🛠️ Tecnologías utilizadas
 
 React
@@ -54,7 +54,7 @@ JavaScript / JSX
 TailwindCSS (estilos utilitarios)
 
 Node.js + npm para la ejecución local
-
+________________________________________
 📁 Scripts disponibles (package.json)
 
 dev → inicia Vite en modo desarrollo
