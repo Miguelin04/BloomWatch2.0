@@ -31,6 +31,9 @@ Indicador de carga
 
 Enlace “Recuperar contraseña” (opcional)
 
+🖼️ Captura:
+/docs/img/inicio de sesion.png
+
 🏠 Pantalla 2 – Dashboard
 
 📌 Propósito:
@@ -45,6 +48,9 @@ Mini-mapa global con resumen
 Botones de acceso: Explorador de Mapas, Cargar Imagen, Centro de Alertas, Predicciones
 
 Barra superior de navegación
+
+🖼️ Captura:
+/docs/img/dashboard.png
 
 🗺️ Pantalla 3 – Explorador de Mapas
 
@@ -63,6 +69,9 @@ Botón Analizar Región
 
 Barra de herramientas geoespaciales (zoom, reset, capas)
 
+🖼️ Captura:
+/docs/img/explorador de mapas.png
+
 🖼️ Pantalla 4 – Carga de Imagen Satelital
 
 📌 Propósito:
@@ -79,6 +88,9 @@ Barra de progreso del procesamiento
 Mensajes de validación (formato, tamaño, éxito)
 
 Botón Ver Resultados al finalizar
+
+🖼️ Captura:
+/docs/img/cargar imagen satelital.png
 
 🤖 Pantalla 5 – Análisis de IA
 
@@ -97,6 +109,9 @@ Botón Descargar reporte
 
 Selector de capas analizadas
 
+🖼️ Captura:
+/docs/img/analisis de IA.png
+
 📈 Pantalla 6 – Predicciones
 
 📌 Propósito:
@@ -111,6 +126,9 @@ Filtros temporales (rango de fechas)
 Indicadores clave de tendencia
 
 Notas o advertencias automáticas
+
+🖼️ Captura:
+/docs/img/predicciones.png
 
 🚨 Pantalla 7 – Centro de Alertas
 
@@ -127,6 +145,9 @@ Vista rápida de la ubicación en mini-mapa
 
 Indicador de estado (activa, resuelta)
 
+🖼️ Captura:
+/docs/img/centro de alertas.png
+
 ⚙️ Pantalla 8 – Configuración
 
 📌 Propósito:
@@ -141,3 +162,6 @@ Gestión de API Keys
 Botón Editar perfil
 
 Botón Cerrar sesión
+
+🖼️ Captura:
+/docs/img/configuracion.png
